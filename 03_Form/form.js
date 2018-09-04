@@ -18,6 +18,7 @@ export class Form {
         this.domForm.addEventListener('submit',
             this.enviar.bind(this)
         ) 
+        console.log(this.data)
     }
 
     enviar(oEv) {
