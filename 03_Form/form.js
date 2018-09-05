@@ -29,6 +29,7 @@ export class Form {
         this.data.email = document.querySelector('#correo').value
         this.data.passw = document.querySelector('#passw').value
         this.data.coments = document.querySelector('#comentarios').value
+        
         this.data.opciones.conditions = document.querySelector('#condiciones').checked
         this.data.opciones.turn = this.setTurno()
         this.data.opciones.curse = this.setCurso() 
