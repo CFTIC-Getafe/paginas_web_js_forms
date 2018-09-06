@@ -8,9 +8,6 @@ function main() {
     inApellido.addEventListener('blur', validaTexto)
     inApellido.addEventListener('input',validaTexto)
     
-    let g = / /
-    let x = new RegExp()
-
     function validaTexto() {
         if(!this.value) {
             console.log(`${this.id} incorrecto`)
