@@ -18,3 +18,10 @@ ul.tareas li span.borrar-tarea {
     cursor: pointer;
 }
 
+.hecho {
+    text-decoration: line-through;
+}
+
+.inactivo {
+    opacity: 0.5;
+}
