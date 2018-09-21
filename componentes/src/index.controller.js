@@ -9,7 +9,6 @@ export class Index extends App {
     }
 
     renderMain() {
-        
         this.inicio = new InicioComponent('Inicio')
         this.nodeMain.innerHTML = this.inicio.renderString()
     }
