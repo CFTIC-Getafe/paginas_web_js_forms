@@ -2,11 +2,12 @@ export class xxxComponent {
     constructor (title) {
         this.title = title
     }
-    renderString() {
-        const xxx = 
-        `<header>
+    render() {
+        const xxx = document.createElement('xxx') 
+        xxx.innerHTML = 
+        `<div>
             <h1 class="title">${this.title}</h1>
-        </header>
+        </div>
         `
         return xxx
     }

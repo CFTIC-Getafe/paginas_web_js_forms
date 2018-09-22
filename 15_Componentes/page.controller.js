@@ -1,4 +1,4 @@
-import { APPTITLE } from './config.js';
+import { APPTITLE, APPMENU } from './config.js';
 import { HeadComponent }  from './componentes/head.component.js'
 import { HeaderComponent } from './componentes/header.component.js';
 import { MenuComponent } from './componentes/menu.component.js';
@@ -17,7 +17,7 @@ export class PageController {
         //document.head.innerHTML += new HeadComponent('Componentes').render()
         this.head = new HeadComponent(this.pageTitle).render()
         this.header = new HeaderComponent(this.title).render()
-        this.menu = new MenuComponent().render()
+        this.menu = new MenuComponent(APPMENU).render()
         this.main = document.createElement('main')
         this.footer = new FooterComponent(this.contentFooter).render()
 
