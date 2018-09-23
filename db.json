@@ -26,18 +26,13 @@
   },
   "tareas": [
     {
-      "id": 2,
-      "name": "Reunion de trabajo",
-      "isComplete": true
-    },
-    {
-      "name": "Aprender Angular",
-      "isComplete": true,
-      "id": 3
+      "id": 1,
+      "name": "Clases curso Paginas",
+      "isComplete": false
     },
     {
       "name": "Utilizar componentes",
-      "isComplete": true,
+      "isComplete": false,
       "id": 4
     }
   ],
