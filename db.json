@@ -28,12 +28,17 @@
     {
       "id": 1,
       "name": "Clases curso Paginas",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "name": "Utilizar componentes",
       "isComplete": false,
       "id": 4
+    },
+    {
+      "name": "Aprender Angular",
+      "isComplete": false,
+      "id": 5
     }
   ],
   "tareas2": [
