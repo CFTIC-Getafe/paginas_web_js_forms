@@ -17,4 +17,10 @@ export class ListaContactosComponent implements OnInit {
     this.aContactos = USERS
   }
 
+  borrarContacto(badEmail) {
+    
+  this.aContactos = this.aContactos.filter(
+      (item) => item.email != badEmail )
+  }
+
 }
